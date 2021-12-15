@@ -1,0 +1,44 @@
+#jumbo {
+  background-image: url(images/wbbg.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  text-shadow: 1px 1px 1px white;
+  font-size: medium;
+  background-color: #212529;
+  border:solid white 1px
+}
+
+#jumbo h1{
+  margin-left: 2em;
+}
+
+#jumbo p{
+  margin-left: 4em;
+}
+
+.jumbo_text {
+  padding-left: 4em;
+}
+body {
+  background-color: #212529;
+}
+
+header h1 {
+  color: white;
+}
+
+footer {
+  border: white 1px solid;
+}
+
+nav {
+  border: white 1px solid;
+}
+
+.row {
+  border: white 1px solid;
+}
+
+.col-md-12{
+  border: white 1px solid;
+}

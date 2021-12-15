@@ -1,0 +1,19 @@
+.common{
+  color: aqua;
+}
+#wrapper {
+  color: blue;
+}
+nav {
+  color: aliceblue;
+}
+* {
+  background-color: lightsalmon;
+  font-size: 1em;
+  font-family: Arial, Helvetica, sans-serif, 'Times New Roman';
+  font-weight: bold;
+  font-style: italic;
+}
+body > main {
+  color: chartreuse;
+}

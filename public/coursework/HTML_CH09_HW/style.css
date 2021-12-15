@@ -1,0 +1,24 @@
+#container > ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  background-color: teal;
+  padding: 1em;
+  margin: 1em;
+  border: 3px solid black;
+}
+a {
+  color: white;
+  border: 3px solid black;
+}
+@media all and (max-width: 800px) {
+  #container {
+    flex-direction: column;
+  }
+}
+@media all and (max-width:500px) {
+  #container {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,51 @@
+header {
+  background-color: aqua;
+  color: black;
+}
+#jumbotron {
+  width: 100%;
+  height: 20vh;
+  background-image: url(images/fish.jpg);
+  color: red;
+}
+.link {
+  color: red;
+}
+#one {
+  background-color: blueviolet;
+  font-size: 1.2em;
+  font-style: bold;
+}
+#two {
+  background-color: brown;
+  font-size: 1.2em;
+  font-style: bold;
+}
+#three {
+  background-color: burlywood;
+  font-size: 1.2em;
+  font-style: bold;
+}
+#four {
+  background-color: cadetblue;
+  font-size: 1.2em;
+  font-style: bold;
+}
+#five {
+  background-color: chartreuse;
+  font-size: 1.2em;
+  font-style: bold;
+}
+#menu {
+  background-color: orange;
+  color: purple;
+}
+#foot {
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+#map {
+  background-color: gray;
+  color: black;
+}

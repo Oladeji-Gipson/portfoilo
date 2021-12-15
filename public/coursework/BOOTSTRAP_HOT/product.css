@@ -1,0 +1,42 @@
+#jumbo {
+  background-image: url(images/R.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 400px;
+  text-shadow: 1.5px 1.5px 1.5px black;
+  background-position: center;
+  border:solid white 1px
+}
+
+#jumbo h1 {
+  margin-left: 30%;
+}
+
+body {
+  color: black;
+  background-color: #212529;
+}
+
+body h1 {
+  color: white
+}
+
+.container {
+  background-color: #212529;
+}
+footer {
+  border: white 1px solid;
+  margin-top: 4px;
+}
+
+.card-body {
+  border: white 1px solid;
+}
+
+.card-body h5 {
+  border: white 1px solid;
+}
+
+nav {
+  border:solid white 1px
+}

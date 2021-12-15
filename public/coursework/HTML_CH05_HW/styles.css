@@ -1,0 +1,28 @@
+#wrapper {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.headers {
+  border-bottom: 10px dashed blueviolet;
+}
+header {
+  background: #ff9900;
+  background: linear-gradient(90deg,#ff9900 20%, #000aff 90%);
+  background: -webkit-linear-gradient(90deg,#ff9900 20%, #000aff 90%);
+  background: -moz-linear-gradient(90deg,#ff9900 20%, #000aff 90%);
+}
+body {
+  background: #ff0000;
+background: linear-gradient(90deg,#ff0000 40%, #ffa800 60%);
+background: -webkit-linear-gradient(90deg,#ff0000 40%, #ffa800 60%);
+background: -moz-linear-gradient(90deg,#ff0000 40%, #ffa800 60%);
+}
+.dummy {
+  margin: 2em;
+  padding: 2em;
+}
+p {
+  height: 3em;
+  width: 10em;
+}

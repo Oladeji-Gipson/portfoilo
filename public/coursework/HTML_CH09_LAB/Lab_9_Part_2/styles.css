@@ -1,0 +1,136 @@
+#container {
+  height: 100vh;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -5em;
+  flex: 1;
+}
+
+
+
+.link {
+  list-style-type: none;
+  padding: .7em;
+}
+
+a:link, a:visited, a:hover, a:active {
+  text-decoration: none;
+  list-style: none;
+}
+
+a:hover {
+  color: red;
+}
+
+aside {
+  display: flex;
+  align-items: flex-start;
+  margin-right: 5em;
+  margin-bottom: 5em;
+  margin-top: 5em;
+}
+
+main {
+  display: flex;
+  flex-flow: column wrap;
+  flex-grow: 1;
+}
+
+.product-list
+
+.product-img {
+  padding: 6em;
+  background-repeat: no-repeat;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+}
+
+p {
+  margin: 3em 1em;
+}
+
+@media screen and (min-width: 600px) {
+  body {
+    color: red;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  body {
+    background-color: lightseagreen;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+
+  #container main {
+    display: flex;
+    flex-grow: 1;
+ 
+  }
+
+  nav ul {
+    margin-right: 10em;
+    display: flex;
+    flex-direction: row;
+    width:250px;
+  }
+
+  main {
+    display: flex;
+  }
+
+  main p {
+    display: flex;
+    flex-flow: row;
+  }
+
+  main ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #mainside {
+    display: flex;
+  }
+}
+
+@media screen and (min-width: 2500px) {
+
+  #container main {
+    display: flex;
+    flex-grow: 1;
+    background-color: black;
+  }
+
+  nav ul {
+    margin-right: 10em;
+    display: flex;
+    flex-direction: row;
+    width:250px;
+  }
+
+  main {
+    color: blue;
+  }
+
+  main p {
+    display: flex;
+    flex-flow: row;
+  }
+
+  main ul {
+    display: flex;
+    flex-direction: row;
+  }
+
+  #mainside {
+    display: flex;
+  }
+}

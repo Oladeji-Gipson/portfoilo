@@ -1,0 +1,14 @@
+p {
+  color: brown;
+  font-size: 1.2em;
+  font-family: Verdana;
+}
+.part4 {
+  font-weight: bold;
+  font-style: italic;
+}
+body {
+  background-color: #FFF8DC;
+  color: #000099;
+  font-family: sans-serif;
+}
